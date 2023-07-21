@@ -1,25 +1,39 @@
-# Comentários começam com o símbolo de hashtag
+# Arquivos compilados e gerados automaticamente
+*.class
+*.jar
+*.war
+*.zip
+*.xml
 
-# Arquivos temporários
-*.tmp
-
-# Logs de sistema
+# Arquivos de log
 logs/
 
-# Arquivos de build e compilação
-build/
-dist/
-*.exe
-*.o
+# Arquivos de build do WSO2
+repository/components/lib/
+repository/components/dropins/
+repository/deployment/server/webapps/
 
-# Dependências e pacotes gerados
-node_modules/
-vendor/
+# Dependências e bibliotecas geradas
+repository/components/plugins/
+repository/components/features/
+repository/conf/identity/key-store/
 
-# Arquivos de configuração com informações sensíveis
-config.ini
-secrets.json
+# Arquivos de configuração específicos da instalação
+repository/conf/datasources/
+repository/conf/carbon.xml
+
+# Cache e arquivos temporários
+repository/data/
+repository/components/org.wso2.carbon.security.mgt/
+repository/components/org.wso2.carbon.registry/
+repository/components/org.eclipse.osgi/
 
 # Arquivos de backup
 *.bak
 *.backup
+
+# Outros arquivos gerados automaticamente
+*.log
+*.tmp
+*.swp
+*.DS_Store
