@@ -41,10 +41,10 @@ const DefaultConfigurations = {
             border: 'none', // It can be something like 'solid 1px #cccccc' for fixed layouts
         },
         appBar: {
-            logo: '/site/public/images/logo.svg', // You can set the url to an external image also ( ex: https://dummyimage.com/208x19/66aad1/ffffff&text=testlogo)
-            logoHeight: 19,
+            logo: '/site/public/images/Logo.svg', // You can set the url to an external image also ( ex: https://dummyimage.com/208x19/66aad1/ffffff&text=testlogo)
+            logoHeight: 25,
             logoWidth: 208,
-            background: '#0fa2db',
+            background: '#c2c2c2',
             backgroundImage: '/site/public/images/appbarBack.png',
             searchInputBackground: '#fff',
             searchInputActiveBackground: '#fff',

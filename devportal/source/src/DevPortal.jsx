@@ -74,6 +74,7 @@ class DevPortal extends React.Component {
     /**
      *  Mounting the components
      */
+    /* componentDidmount é a maneira antiga de fazer o useEffect */
     componentDidMount() {
         const { app: { customUrl: { tenantDomain: customUrlEnabledDomain } } } = Settings;
         let tenant = null;
