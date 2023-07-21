@@ -1,0 +1,25 @@
+# Comentários começam com o símbolo de hashtag
+
+# Arquivos temporários
+*.tmp
+
+# Logs de sistema
+logs/
+
+# Arquivos de build e compilação
+build/
+dist/
+*.exe
+*.o
+
+# Dependências e pacotes gerados
+node_modules/
+vendor/
+
+# Arquivos de configuração com informações sensíveis
+config.ini
+secrets.json
+
+# Arquivos de backup
+*.bak
+*.backup
